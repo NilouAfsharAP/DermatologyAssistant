@@ -1,0 +1,23 @@
+# Core
+numpy==1.26.4
+pillow>=9.5.0
+
+# Computer vision
+# If you ever hit Qt/GUI conflicts with OpenCV on some machines, switch to:
+# opencv-python-headless>=4.8.0
+opencv-python>=4.8.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Grad-CAM (module name: pytorch_grad_cam)
+grad-cam==1.5.0
+
+# GUI
+PyQt6>=6.4.0
+
+# Training + dataset preparation (HAM10000 split script)
+pandas>=1.5.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0
