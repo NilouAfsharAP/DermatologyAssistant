@@ -1,0 +1,4 @@
+arch=efficientnet_v2_s
+classes=['Actinic Keratoses', 'Basal Cell Carcinoma', 'Benign Keratosis-like Lesions', 'Dermatofibroma', 'Melanocytic Nevi', 'Melanoma', 'Vascular Lesions']
+best_val_acc1=0.7710437710437711
+best_epoch=25
